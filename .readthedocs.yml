@@ -22,11 +22,8 @@ sphinx:
 formats: all
 
 python:
-  version: 3.12
   install:
-    - method: pip
-      path: .
-    - requirements: source/requirements.txt
+  - requirements: source/requirements.txt
 
 # .readthedocs.yaml
 # Read the Docs configuration file
