@@ -12,6 +12,7 @@ project = 'intelhackpack'
 copyright = '2024, Rahul Unnikrishnan Nair'
 author = 'Rahul Unnikrishnan Nair'
 release = '0.1'
+html_favicon = '_static/favicon.png'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
