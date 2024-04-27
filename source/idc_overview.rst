@@ -8,7 +8,7 @@ IDC or Intel® Tiber™ Developer Cloud is Intel's production cloud for AI appli
    :alt: Intel® Tiber™ Developer Cloud
 
 General Information 📜
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Participants have access to two primary systems on the Intel® Tiber™ Developer Cloud (IDC):
 
@@ -29,7 +29,7 @@ Participants have access to two primary systems on the Intel® Tiber™ Develope
     - These are suitable for deploying applications that require a public IP. Tools like ngrok or reverse tunneling are recommended for public exposure or showcasing the app on your laptop.
 
 Accessing IDC 🌍
-----------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To access IDC, the first step is to register for a **standard account** at the `Intel® Tiber™ Developer Cloud <https://cloud.intel.com/hackdavis>`_.
 

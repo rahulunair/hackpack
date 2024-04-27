@@ -11,7 +11,7 @@ Update the repositories and install Python:
    sudo apt-get install pip
 
 Local Port Forwarding for JupyterLab (Applicable for CPU VMs) 🔄
------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Use local port forwarding to securely access the JupyterLab session from your VM on your local machine:
 
@@ -29,7 +29,7 @@ Start JupyterLab:
 Access at localhost:8888 using the provided token.
 
 Uploading and Managing Files to VMs 📤📥
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Assuming the username for the VM is `ubuntu`:
 
@@ -47,7 +47,7 @@ To download files from the remote VM:
 
 
 Connecting VSCode to IDC Environments 🖥️🔗
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can enhance your development experience by connecting Visual Studio Code (VSCode) to either the Jupyter environment or a CPU VM using Microsoft's VSCode Remote Tunnels extension. This allows you to develop directly on the IDC resources using VSCode's interface.
 

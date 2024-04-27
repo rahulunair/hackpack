@@ -22,7 +22,7 @@ Deploying Your Solution 🚀 🖥️
 You can launch a **Small or Large CPU VM** by going to the hardware catalog section of IDC and use `SSH` to connect to the machine. Once you have a working prototype and are ready to deploy it for others to use, come talk to us. We can provide you with cloud credits to launch a dedicated **CPU VM** to host your deployed app.
 
 Configure SSH for VM Access 🔐
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To connect to the VM, you need to generate an SSH key, here is a GitHub doc on generating `SSH keys<https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>_` .
 
@@ -37,7 +37,7 @@ To connect to the VM, you need to generate an SSH key, here is a GitHub doc on g
 - ``id_rsa`` is your private key. Adding a passphrase is optional.
 
 Connect via SSH ⌨️
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Command format::
 
@@ -47,7 +47,7 @@ Replace ``GUEST_IP`` and ``VM_IP`` with the actual IP addresses.
 
 
 Exposing your Application via ngrok 🌐
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Use **ngrok** to expose your VM's server to the internet when a public URL is needed to share your application:
 
@@ -57,7 +57,7 @@ Use **ngrok** to expose your VM's server to the internet when a public URL is ne
    ngrok http 8080
 
 Example of Exposing a Simple HTTP Server Using ngrok 🖥️➡️🌐
------------------------------------------------------------
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 1. Start a simple HTTP server on your VM (ensure you have Python installed):
 
@@ -72,7 +72,7 @@ Example of Exposing a Simple HTTP Server Using ngrok 🖥️➡️🌐
    ngrok http 8080
 
 Local Port Forwarding Example 🔄
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To expose a web application running on your VM through your local machine, assuming the username of the VM is `ubuntu`:
 
@@ -81,7 +81,7 @@ To expose a web application running on your VM through your local machine, assum
    ssh -i id_rsa -L 8080:localhost:8080 guest@GUEST_IP ubuntu@VM_IP
 
 Choosing the Right Platform 🧭
--------------------------------
+---------------------------------------------------
 
-- Development: Use the Jupyter environment for quick AI development, model fine-tuning, or modifying existing LLM notebooks.
-- Deployment: Utilize CPU VMs for deploying applications with frontend components, using local port forwarding or ngrok for external access.
+- **Development** : Use the Jupyter environment for quick AI development, model fine-tuning, or modifying existing LLM notebooks.
+- **Deployment** : Utilize CPU VMs for deploying applications with frontend components, using local port forwarding or ngrok for external access.
