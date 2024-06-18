@@ -25,3 +25,4 @@ Explore the following sections to learn more:
    idc_overview
    develop_deploy
    useful_commands
+   ai_pc
