@@ -3,7 +3,7 @@ Local AI Development with Intel Core Ultra NUCs
 
 We are equipped with the `ASUS NUC 14 Pro`_, a compact yet powerful AI PC designed for local AI development. This model features the Intel® Core™ Ultra processors’ three AI engines for high throughput, low power, and fast response (Intel® Meteorlake CPU, Intel® Arc Graphics and an Intel® AI Boost Neural Processing Unit), offering substantial computational power and flexibility with a unique memory sharing capability between the CPU, GPU, and NPU.
 
-.. image:: images/asus_nuc_14_pro.png
+.. image:: images/asus_nuc_14_pro_0.png
    :align: center
    :alt: ASUS NUC 14 Pro with Intel Arc Graphics
    :width: 500px
