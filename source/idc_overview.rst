@@ -34,11 +34,10 @@ Accessing IDC 🌍
 To access IDC, the first step is to register for a **standard account** at the `Intel® Tiber™ Developer Cloud <https://cloud.intel.com/aicalhacks>`_.
 You can use this QR code as well:
 
-.. raw:: html
-
-    <div style="text-align: center; margin-top: 20px;">
-        <img src="./images/image.png" alt="QR Code" style="max-width: 200px;">
-    </div>
+.. image:: images/image.png
+   :align: center
+   :width: 200px
+   :alt: QR Code
 
 
 
