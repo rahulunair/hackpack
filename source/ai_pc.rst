@@ -6,7 +6,7 @@ We are equipped with the `ASUS NUC 14 Pro`_, a compact yet powerful AI PC design
 .. image:: images/asus_nuc_14_pro.png
    :align: center
    :alt: ASUS NUC 14 Pro with Intel Arc Graphics
-   :width: 300px
+   :width: 500px
 
 .. _ASUS NUC 14 Pro: https://www.asus.com/us/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-14-pro/
 
