@@ -35,7 +35,7 @@ To access IDC, the first step is to register for a **standard account** at the `
 You can use this QR code as well:
 
 <div style="text-align: center; margin-top: 20px;">
-    <img src="./qr_code.png" alt="QR Code" style="max-width: 200px;">
+    <img src="./images/image.png" alt="QR Code" style="max-width: 200px;">
 </div>
 
 
